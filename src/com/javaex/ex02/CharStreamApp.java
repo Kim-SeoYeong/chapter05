@@ -9,6 +9,8 @@ public class CharStreamApp {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
+		
+		//txt 파일에 원하는 내용을 입력해넣을때
 		Writer fw = new FileWriter("C:\\javaStudy\\song.txt");
 		BufferedWriter bw = new BufferedWriter(fw);
 		

@@ -9,6 +9,8 @@ public class CharStreamApp2 {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
+		
+		//txt 파일에 있는 내용을 읽어오는 로직
 		Reader fr = new FileReader("C:\\javaStudy\\song.txt");
 		//Reader fr = new FileReader("C:\\javaStudy\\MS949.txt");
 		BufferedReader br = new BufferedReader(fr);
